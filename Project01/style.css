@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 129px;
+}
+.logo{
+    background-image: url("OIP.jpeg");
+    height: 50px;
+    background-size: cover;
+}
+.border{
+    border: 3px solid transparent;
+}
+.border:hover{
+    border: 3px solid white;
+}
+.location{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin: 15px;
+}
+#logo2{
+    margin-right: 5px;
+}
+.addicon{
+    color:white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    background-color:#ffbf00;
+    display: flex;
+    justify-content: space-evenly;
+    width: 720px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width:50px ;
+    text-align: center;
+    border:none;
+    overflow: auto;
+}
+.search-select:hover{
+    border: 3px solid orange;
+}
+.overflow{
+   
+   
+    overflow:auto;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-input:hover{
+    border: 3px solid orange;
+}
+#searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #fec268;
+    border-top-right-radius:7px ;
+    border-bottom-right-radius:7px ;
+}
+#searchicon:hover{
+    border: 3px solid orange;
+}
+span{
+    font-size: 0.7rem;
+}
+.sign2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+#cartlogo{
+    font-size:32px ;
+}
+.cart{
+    font-size: 13px;
+font-weight: 700;
+}
+.panel{
+     background-color: #222f3d;
+      color: white;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+}
+.panelops p{
+    display: inline;
+    margin-left: 15%;
+}
+.panelops{
+    width: 70%;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/*hero section*/
+.hero-section{
+    background-image: url("hero image.jpg");
+    height: 500px;
+    background-size: cover;
+    font-size: 0.85rem;
+}
+/* shop section boxes */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    /* border: 2px solid black; */
+    height:400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    flex-wrap: wrap ;
+
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.box-content{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+p{
+    margin-top: 1rem;
+}
+.box-content p{
+    color:#007158;
+}
+.see:hover{
+    color: orangered;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.90rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("OIP.jpeg");
+    height: 50px;
+    background-size: cover;
+    width: 100px;
+}
+.foot-panel4{
+    background-color: #131a22;
+    color: #dddddd;
+    height: 78px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+a{
+    display: inline block;
+}
+.pages{
+    
+   
+    padding: 15px;
+}
+.copyright{
+    
+    padding: 5px;
+}
